@@ -1,2 +1,1 @@
-netbox-topology-views
-netbox-acls
+netbox-topology-views netbox-acls
