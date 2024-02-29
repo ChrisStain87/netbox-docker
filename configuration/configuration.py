@@ -250,6 +250,13 @@ PLUGINS = ["netbox_topology_views"]
 # # Each key in the dictionary is the name of an installed plugin and its value is a dictionary of settings.
 # PLUGINS_CONFIG = {
 # }
+PLUGINS_CONFIG = {
+    'netbox_topology_views': {
+        'static_image_directory': 'netbox_topology_views/img',
+        'allow_coordinates_saving': True,
+        'always_save_coordinates': True
+    }
+}
 
 # When determining the primary IP address for a device, IPv6 is preferred over IPv4 by default. Set this to True to
 # prefer IPv4 instead.
